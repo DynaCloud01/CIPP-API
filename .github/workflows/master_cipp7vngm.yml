@@ -23,6 +23,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Login to Azure
+      az login
         uses: azure/login@v1
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9C4E0AFA84A243EC8B0EC17682892ED8 }}
