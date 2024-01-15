@@ -15,6 +15,7 @@ env:
 jobs:
   deploy:
     runs-on: windows-latest
+    enviroment: production
     permissions:
       id-token: write #This is required for requesting the JWT
 
