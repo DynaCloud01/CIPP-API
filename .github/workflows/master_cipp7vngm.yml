@@ -25,9 +25,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_55E36AFA2E514031A43D27A4489AA1B0 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_C3792EF904144D4B8228CF606519BBF0 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_42726B7FFD60497188D9F565D1AB2BCC }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_F070AB1E1CC14180A157B3B54B867E0C }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_73EB054817ED42E89A558EBBFDABD18D }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_0CB2179CB3E948818605218047309040 }}
 
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
